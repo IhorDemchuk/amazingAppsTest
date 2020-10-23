@@ -93,7 +93,7 @@ h2 {
 
          &::after {
             content: '';
-            background: url(images/right_arrow.png) center no-repeat;
+            background: url(../images/right_arrow.png) center no-repeat;
             background-size: contain;
             width: 20px;
             height: 14px;
@@ -221,7 +221,7 @@ main {
 
                   &::after {
                      content: '';
-                     background: url(images/right_arrow.png) center no-repeat;
+                     background: url(../images/right_arrow.png) center no-repeat;
                      background-size: contain;
                      width: 20px;
                      height: 14px;
@@ -233,22 +233,22 @@ main {
          }
 
          & .item1 {
-            background: url(images/features/features_back1.png) right no-repeat;
+            background: url(../images/features/features_back1.png) right no-repeat;
             background-size: contain;
          }
 
          & .item2 {
-            background: url(images/features/features_back2.png) right no-repeat;
+            background: url(../images/features/features_back2.png) right no-repeat;
             background-size: contain;
          }
 
          & .item3 {
-            background: url(images/features/features_back3.png) right no-repeat;
+            background: url(../images/features/features_back3.png) right no-repeat;
             background-size: contain;
          }
 
          & .item4 {
-            background: url(images/features/features_back4.png) right no-repeat;
+            background: url(../images/features/features_back4.png) right no-repeat;
             background-size: contain;
          }
       }
