@@ -1,6 +1,6 @@
 @font-face {
   font-family: Avenir;
-  src: url("/Avenir-Roman.otf") format("opentype");
+  src: url("Avenir-Roman.otf") format("opentype");
 }
 * {
   outline: none;
@@ -81,7 +81,7 @@ header .header_content .header_content_request {
 }
 header .header_content .header_content_request::after {
   content: "";
-  background: url(/images/right_arrow.png) center no-repeat;
+  background: url(images/right_arrow.png) center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -115,7 +115,7 @@ main .main_slider .main_slider_item:active, main .main_slider .main_slider_item:
   outline: none;
 }
 main .main_slider .item1, main .main_slider .item2, main .main_slider .item3 {
-  background: url(/images/slide1.png) no-repeat;
+  background: url(../images/slide1.png) no-repeat;
   background-size: contain;
 }
 main .main_slider .main_slider_item_content .main_slider_item_content_header {
@@ -188,7 +188,7 @@ main .features_main .features_main_list .features_main_list_item .features_main_
 }
 main .features_main .features_main_list .features_main_list_item .features_main_list_item_content .features_main_list_item_content_btn::after {
   content: "";
-  background: url(/images/right_arrow.png) center no-repeat;
+  background: url(images/right_arrow.png) center no-repeat;
   background-size: contain;
   width: 20px;
   height: 14px;
@@ -196,18 +196,18 @@ main .features_main .features_main_list .features_main_list_item .features_main_
   display: block;
 }
 main .features_main .features_main_list .item1 {
-  background: url(/images/features/features_back1.png) right no-repeat;
+  background: url(images/features/features_back1.png) right no-repeat;
   background-size: contain;
 }
 main .features_main .features_main_list .item2 {
-  background: url(/images/features/features_back2.png) right no-repeat;
+  background: url(images/features/features_back2.png) right no-repeat;
   background-size: contain;
 }
 main .features_main .features_main_list .item3 {
-  background: url(/images/features/features_back3.png) right no-repeat;
+  background: url(images/features/features_back3.png) right no-repeat;
   background-size: contain;
 }
 main .features_main .features_main_list .item4 {
-  background: url(/images/features/features_back4.png) right no-repeat;
+  background: url(images/features/features_back4.png) right no-repeat;
   background-size: contain;
 }
