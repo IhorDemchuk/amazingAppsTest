@@ -7,25 +7,11 @@
    <title>Amazing Apps</title>
 
    <link rel="stylesheet" href="styles/styles.css">
+   <link rel="stylesheet" href="styles/responsive.css">
 
    <link rel="stylesheet" type="text/css" href="source/slick/slick/slick.css" />
 
    <link rel="stylesheet" type="text/css" href="source/slick/slick/slick-theme.css" />
-
-   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-
-   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-   <script type="text/javascript" src="source/slick/slick/slick.min.js"></script>
-
-   <script type="text/javascript">
-      $(document).ready(function () {
-         $('.main_slider').slick({
-            dots: true,
-            arrows: false
-         });
-      });
-   </script>
 
 </head>
 
@@ -56,11 +42,28 @@
 
                   </ul>
 
+                  <div class="mobile_menu">
+                     <input id="mobile_menu_toogle" type="checkbox" />
+                     <label class="mobile_menu_btn" for="mobile_menu_toogle">
+                        <span></span>
+                     </label>
+
+                     <ul class="mobile_menu_list">
+
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Signup</a></li>
+
+                     </ul>
+
+                  </div>
+
                   <div class="header_content_search">
 
-                     <img src="images/search.png" alt="search">
+                     <img src="images/search.png" alt="search" class="header_content_search_img">
 
-                     <input type="search">
+                     <input type="search" class="header_content_search_input">
 
                   </div>
 
@@ -68,7 +71,7 @@
 
             </div>
 
-            <a href="#"><button class="header_content_request">Request Demo</button></a>
+            <a href="#"><button type="button" class="header_content_request request_btn">Request Demo</button></a>
 
          </div>
 
@@ -81,7 +84,7 @@
 
       <div class="container">
 
-         <div class="main_slider">
+         <section class="main_slider">
 
             <div class="main_slider_item item1">
 
@@ -90,7 +93,7 @@
                   <p class="main_slider_item_content_text">Data Warehouse is a data storage area that has been
                      tested for security, so you can store your data here
                      safely but not be afraid of being stolen by others.</p>
-                  <a href="#"><button class="main_slider_item_content_btn">Learn more</button></a>
+                  <a href="#"><button class="main_slider_item_content_btn learn_more">Learn more</button></a>
                </div>
 
             </div>
@@ -102,7 +105,7 @@
                   <p class="main_slider_item_content_text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Exercitationem dolor in voluptas sunt modi tenetur at repellat iure. Ducimus, ad. Sequi aut,
                      dolores pariatur eos voluptates earum accusamus dignissimos velit!</p>
-                  <a href="#"><button class="main_slider_item_content_btn">Learn more</button></a>
+                  <a href="#"><button class="main_slider_item_content_btn learn_more">Learn more</button></a>
                </div>
 
             </div>
@@ -114,14 +117,14 @@
                   <p class="main_slider_item_content_text">Data Warehouse is a data storage area that has been
                      tested for security, so you can store your data here
                      safely but not be afraid of being stolen by others.</p>
-                  <a href="#"><button class="main_slider_item_content_btn">Learn more</button></a>
+                  <a href="#"><button class="main_slider_item_content_btn learn_more">Learn more</button></a>
                </div>
 
             </div>
 
-         </div>
+         </section>
 
-         <div class="features_main">
+         <section class="features_main">
 
             <h2>Features</h2>
 
@@ -131,8 +134,6 @@
             <div class="features_main_list">
 
                <div class="features_main_list_item item1">
-
-                  <img src="images/features/features1.png" alt="Search Data" class="features_main_list_item_img">
 
                   <div class="features_main_list_item_content">
 
@@ -149,8 +150,6 @@
                </div>
 
                <div class="features_main_list_item item2">
-
-                  <img src="images/features/features2.png" alt="Security Code" class="features_main_list_item_img">
 
                   <div class="features_main_list_item_content">
 
@@ -169,8 +168,6 @@
 
                <div class="features_main_list_item item3">
 
-                  <img src="images/features/features3.png" alt="Print Out" class="features_main_list_item_img">
-
                   <div class="features_main_list_item_content">
 
                      <p class="features_main_list_item_content_header">Print Out</p>
@@ -185,8 +182,6 @@
                </div>
 
                <div class="features_main_list_item item4">
-
-                  <img src="images/features/features4.png" alt="24 Hours Access" class="features_main_list_item_img">
 
                   <div class="features_main_list_item_content">
 
@@ -204,11 +199,178 @@
 
             </div>
 
-         </div>
+         </section>
+
+
+
+      </div>
+
+      <hr class="main_hr">
+
+      <div class="container">
+
+         <section class="promo_free">
+
+            <div class="promo_free_txt">
+
+               <h2 class="promo_free_txt_header">Try for free!</h2>
+
+               <p class="promo_free_txt_description">Get limited 1 week free try our features!</p>
+
+            </div>
+
+            <div class="promo_free_btn">
+
+               <a href="#"><button class="main_slider_item_content_btn learn_more">Learn more</button></a>
+
+               <a href="#"><button class="request_btn">Request Demo</button></a>
+
+            </div>
+
+         </section>
 
       </div>
 
    </main>
+
+   <footer>
+
+      <div class="footer_main">
+
+         <div class="footer_main_company">
+
+            <div class="footer_main_company_logo">
+
+               <a href="/">
+
+                  <img src="images/Logo.png" alt="logo">
+
+                  <p>DataWare</p>
+
+               </a>
+
+            </div>
+
+            <p>Warehouse Society, 234 <br>
+               Bahagia Ave Street PRBW 29281
+            </p>
+            <p><a href="mailto:info@warehouse.project">info@warehouse.project</a> <br>
+               1-232-3434 (Main)</p>
+
+         </div>
+
+         <div class="footer_main_menu">
+
+            <p class="footer_headers">About</p>
+
+            <ul class="footer_main_menu_list">
+               <li><a href="#">Profile</a></li>
+               <li><a href="#">Features</a></li>
+               <li><a href="#">Careers</a></li>
+               <li><a href="#">DW News</a></li>
+            </ul>
+
+         </div>
+
+         <div class="footer_main_menu">
+
+            <p class="footer_headers">Help</p>
+
+            <ul class="footer_main_menu_list">
+               <li><a href="#">Support</a></li>
+               <li><a href="#">Sign up</a></li>
+               <li><a href="#">Guide</a></li>
+               <li><a href="#">Reports</a></li>
+               <li><a href="#">Q&A</a></li>
+            </ul>
+
+         </div>
+
+         <div class="footer_main_social">
+
+            <p class="footer_headers">Social Media</p>
+
+            <div class="footer_main_social_icons">
+
+               <a href="#"><img src="images/social/facebook_icon.png" alt="facebook"></a>
+               <a href="#"><img src="images/social/twitter_icon.png" alt="twitter"></a>
+               <a href="#"><img src="images/social/instagram_icon.png" alt="instagram"></a>
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </footer>
+
+   <div class="request_main" id="request_main_form">
+      <span class="close_form"></span>
+
+      <div class="container">
+
+         <div class="request_form">
+
+            <form action="">
+
+               <p class="request_form_header">Request Demo</p>
+
+               <div class="request_form_information">
+
+                  <div class="request_form_information_list">
+
+                     <div class="request_form_information_item">
+                        <p class="request_form_information_item_header">Name</p>
+                        <input type="text" id="name">
+                        <p id="name_result"></p>
+                     </div>
+
+                     <div class="request_form_information_item">
+                        <p class="request_form_information_item_header">Email</p>
+                        <input type="text" id="email">
+                        <p id="email_result"></p>
+                     </div>
+
+                     <div class="request_form_information_item">
+                        <p class="request_form_information_item_header">Web</p>
+                        <input type="text" id="url">
+                        <p id="url_result"></p>
+                     </div>
+
+                  </div>
+
+                  <div class="request_form_information_list">
+
+                     <div class="request_form_information_item">
+                        <p class="request_form_information_item_header">Message</p>
+                        <textarea cols="50" rows="9"></textarea>
+
+                     </div>
+
+                  </div>
+
+
+               </div>
+
+               <p id="result"></p>
+
+               <a href="#" class="validate_btn"><button type="submit" id='validate'>Send</button></a>
+
+            </form>
+
+         </div>
+
+      </div>
+
+   </div>
+
+   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+   <script type="text/javascript" src="source/slick/slick/slick.min.js"></script>
+
+   <script src="main.js"></script>
 
 </body>
 
