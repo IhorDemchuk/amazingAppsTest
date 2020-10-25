@@ -91,7 +91,7 @@ $("#validate").on("click", validUrl);
 //Url Validation
 
 
-//Request PopUp Validation
+//Request PopUp
 
 $('.request_btn').click(function () {
    $("#request_main_form").show();
@@ -100,3 +100,4 @@ $('.close_form').click(function () {
    $("#request_main_form").hide();
 })
 
+//Request PopUp

@@ -12,6 +12,8 @@ body {
    background: #FAFDFE;
    font-family: Avenir;
    color: #4B5D68;
+   font-size: 16px;
+   line-height: 25px;
 }
 
 button, input {
@@ -87,25 +89,21 @@ h2 {
 	height: 100%;
 	border-radius: 50px;
    transition: all 300ms ease;
-   color: #212353;
     }
     &:hover{
       color: #212353;
       &:before{
          width: 99.9%;
-         color: #212353;
          background:#fff;
          z-index: -1;
       }
     }
 }
 
-.hidden {
-   visibility: hidden;
-}
-
-.show {
-   visibility: visible;
+.container, footer {
+   max-width: 1120px;
+   width: 100%;
+   margin: 0 auto;
 }
 
 /*HEADER*/
@@ -139,7 +137,6 @@ h2 {
                padding-right: 40px;
    
                & a {
-                  font-size: 1em;
                   color: #4B5D68;
                   
                }
@@ -246,12 +243,6 @@ h2 {
    }
 
  }
- 
- .container, footer {
-    max-width: 1120px;
-    width: 100%;
-    margin: 0 auto;
- }
 
 /*END HEADER*/
 
@@ -281,6 +272,7 @@ main {
             font-weight: bold;
             max-width: 645px;
             color: #212353;
+            line-height: 79px;
          }
          & .main_slider_item_content_text {
             max-width: 380px;
@@ -330,8 +322,6 @@ main {
                }
 
                & .features_main_list_item_content_txt {
-                  font-size: 16px;
-                  line-height: 25px;
                   margin-bottom: 20px;
                }
 
