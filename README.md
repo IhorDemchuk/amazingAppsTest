@@ -1,1 +1,1 @@
-# amazingAppsTest
+# landingExample
